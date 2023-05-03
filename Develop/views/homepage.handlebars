@@ -1,0 +1,18 @@
+<h1>This is the homepage</h1>
+
+<ul>
+  {{#each posts as |post|}}
+  
+  <div class="post-container">
+    <h3>{{post.title}}</h3>
+    <p>{{post.content}}</p>
+
+    <hr />
+    <div class="post-footer">
+          <h5>{{format_date post.date_created}}</h5>
+          <h5>- {{post.user.name}}</h5>
+    </div>
+  </div>
+
+  {{/each}}
+</ul>
