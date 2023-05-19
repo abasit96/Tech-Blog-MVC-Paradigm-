@@ -11,22 +11,23 @@
   <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/1211/1211547.png" />
 </head>
 
-<body>
+<body style="background-color: antiquewhite;">
   <div class="flex-column justify-space-around">
     <header class="display-flex justify-space-between align-center p-2">
       <h1 class="home__title">
         Tech Blog
       </h1>
-      <nav>
+      <nav style="background-color:darkblue; text-color:deeppink ">
         <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
-        <a href="/">Home</a> |
-        <a href='/dashboard' id="expense">Dashboard |</a>
+        <a href="/" style="color:deeppink;">Home |</a> 
+        <a href='/dashboard' id="expense" style="color:deeppink;">Dashboard |</a>
         
-        <button class="no-button" id="logout">Logout </button>
+        <button class="no-button" id="logout" style="color:deeppink;">Logout </button>
         {{else}}
-        <a href="/login">Login</a>
+        <a href="/login" style="color:deeppink;">Login</a>
         {{/if}}
+        
       </nav>
     </header>
     <main class="container container-fluid mt-5">
