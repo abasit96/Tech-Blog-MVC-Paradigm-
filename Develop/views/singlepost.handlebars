@@ -14,7 +14,10 @@
   <ul>
     {{#each post.comments as |comment|}}
     <li>{{comment.comment}} - {{comment.user.name}}</li>
+    <li>{{format_date comment.date_created}}</li>
     {{/each}}
+    </div>
+  </div>
   </ul>
 </div>
 
