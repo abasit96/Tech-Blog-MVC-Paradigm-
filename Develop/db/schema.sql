@@ -1,4 +1,3 @@
 DROP DATABASE IF EXISTS TechBlog_DB;
 CREATE DATABASE TechBlog_DB;
 
--- CREATE TABLE `TechBlog_DB`.`comments` (`id` INT(11) NOT NULL AUTO_INCREMENT , `post_id` INT(11) NOT NULL , `comment` VARCHAR(1024) NOT NULL , `date_created` DATETIME NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
