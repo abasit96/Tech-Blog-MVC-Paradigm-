@@ -14,7 +14,7 @@ A CMS-style blog site similar to a Wordpress site, where developers can publish 
 * MySQL
 
 ## Depoloyed Site
-Heroku: 
+Heroku: https://tech--blog-mvc-paradigm.herokuapp.com/
 
 ## License
 This repository is not licensed.
