@@ -20,4 +20,4 @@ Heroku:
 This repository is not licensed.
 
 ## Questions
-If you have any questions please contact me by [email][basitpk10@yahoo.com](mailto:basitpk10@yahoo.com).
+If you have any questions please contact me at [basitpk10@yahoo.com](mailto:basitpk10@yahoo.com).
