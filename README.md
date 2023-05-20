@@ -7,6 +7,14 @@ A CMS-style blog site similar to a Wordpress site, where developers can publish 
 * [License](#license)
 * [Questions](#questions)
 
+Screenshots:
+
+![Screenshot](./Images/Screenshot1.png)
+![Screenshot](./Images/Screenshot2.png)
+![Screenshot](./Images/Screenshot3.png)
+![Screenshot](./Images/Screenshot4.png)
+
+
 ## Technologies
 * Sequelize
 * Express.js
